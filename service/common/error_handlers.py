@@ -55,7 +55,6 @@ def not_found(error):
     )
 
 
-
 @app.errorhandler(status.HTTP_405_METHOD_NOT_ALLOWED)
 def method_not_supported(error):
     """Handles unsupported HTTP methods with 405_METHOD_NOT_SUPPORTED"""
